@@ -1,24 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JONATHAN'S wEBSITE</title>
-
-
+	<title>My Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1><u><i>Get to know you</i></u></h1>
-   
-    <p>Peter Jonathan is the name, my journey so far</p>
-    <p>has been nothing but intriguing.</p>
-    <p>Moving from web fundamental to github, to this simple site</p>
-    <p>created by me. thank you Mr Kingsley for holding my hands</p>
-    <p>through this journey.</p>
-    <img src="shot.jpg.png" alt="">
+	<header>
+		<h1>My Restaurant</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="banner">
+			<h2>Welcome to My Restaurant</h2>
+			<p>Discover our delicious dishes and drinks</p>
+		</section>
+		<section class="menu">
+			<h2>Our Menu</h2>
+			<div class="item">
+				<img src="images/pizza.jpg" alt="Pizza">
+				<h3>Pizza</h3>
+				<p>Our homemade pizza with fresh ingredients</p>
+			</div>
+			<div class="item">
+				<img src="images/burger.jpg" alt="Burger">
+				<h3>Burger</h3>
+				<p>Our juicy burger made with the finest beef</p>
+			</div>
+			<div class="item">
+				<img src="images/salad.jpg" alt="Salad">
+				<h3>Salad</h3>
+				<p>Our fresh salad with a variety of vegetables</p>
+			</div>
+		</section>
+		<section class="about">
+			<h2>About Us</h2>
+			<p>We are a family-owned restaurant that has been serving delicious food since 1985. Our mission is to provide our customers with the best dining experience possible.</p>
+			<img src="images/restaurant.jpg" alt="Restaurant">
+		</section>
+		<section class="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
 
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
 
-    
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; My Restaurant 2023</p>
+	</footer>
 </body>
 </html>
